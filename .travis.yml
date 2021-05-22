@@ -47,7 +47,7 @@ jobs:
       # Definir o Deploy no Google Cloud
       deploy:
         provider: gae
-        keyfile: ../lab-devops-cloud-314123-c9e57c7609e4.json
+        keyfile: /home/vagrant/lab-devops-cloud-314123-c9e57c7609e4.json
         project: lab-devops-cloud-314123
         on:
           branch: main
