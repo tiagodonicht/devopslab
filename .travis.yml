@@ -52,6 +52,6 @@ jobs:
         on:
           branch: main
 
-    - stage: PROD TEST
+    - stage: PROD. TEST
       script:
         - curl https://lab-devops-cloud-314123.uc.r.appspot.com/ | grep Hello || travis_terminate 1;
