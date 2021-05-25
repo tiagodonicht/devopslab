@@ -1,7 +1,7 @@
 # Linguagem Utilizada para Desenvolver a Aplicação
 language: python
 
-# Versão que a aplicação suporta.
+# Versão que a aplicação suporta
 python:
   - "3.7.9"
 
@@ -18,7 +18,7 @@ jobs:
     - stage: Build
 
       name: "Testes Unitarios"
-      # Instalação de Módulos que são necessários para a Aplicação.
+      # Instalação de Módulos que são necessários para a Aplicação
       install:
         - pip install flask flask-wtf coverage
       script:  # Defini o script de Teste que deve rodar toda vez que o código for alterado.
@@ -51,4 +51,3 @@ jobs:
         project: lab-devops-cloud-314123
         on:
           branch: main
-
